@@ -1,4 +1,4 @@
-package com.example.newswhitcompose
+package com.example.newswhitcompose.ViewModel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

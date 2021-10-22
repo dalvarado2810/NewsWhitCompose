@@ -15,7 +15,7 @@ android {
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "com.example.newswhitcompose.utils.CustomTestRunner"
         vectorDrawables {
             useSupportLibrary true
         }
@@ -82,11 +82,17 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     //herramientas de testeo
-    androidTestImplementation 'com.google.dagger:hilt-android.testing:2.39.1'
-    kaptAndroidTest 'com.google.dagger:hilt-compiler:2.39.1'
+
+
+    testImplementation 'com.google.dagger:hilt-android-testing:2.39.1'
+    testAnnotationProcessor 'com.google.dagger:hilt-compiler:2.39.1'
 
     testImplementation 'com.squareup.okhttp3:mockwebserver:4.9.1'
 
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
+
+
+    androidTestImplementation 'com.google.dagger:hilt-android-testing:2.39.1'
+    kaptAndroidTest 'com.google.dagger:hilt-compiler:2.39.1'
 }

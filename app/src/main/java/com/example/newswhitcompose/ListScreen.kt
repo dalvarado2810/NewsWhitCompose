@@ -25,9 +25,8 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import coil.compose.rememberImagePainter
-import com.example.newswhitcompose.ListScreenViewModel
+import com.example.newswhitcompose.ViewModel.ListScreenViewModel
 import com.example.newswhitcompose.model.News
-import com.example.newswhitcompose.R
 import com.example.newswhitcompose.theme.NewsWhitComposeTheme
 
 @Composable
@@ -47,7 +46,7 @@ fun ListScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Top news") },
+                title = { Text("Noticias del Mundo") },
             )
         }
     )
