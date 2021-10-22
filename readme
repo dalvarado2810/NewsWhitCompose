@@ -1,0 +1,27 @@
+pasos de trabajo...
+
+creacion de arquitectura pensada para trabajar modelo MVVM
+
+* Primero creamos el model, que comprende los datos que vamos a traer mediante retrofit de la API se establecen en data class para la data
+y una class normal para la respuesta de la API
+
+* Segundo creamos el proveedor del repositorio en el cual ingresamos como constante la API KEY y se crea la interface para realizar la funcion GET del APIREST 
+ingresando la APIKEY y luego mediante una funcion suspendida se ingresa la query y su respuesta para ser llamada por corutina luego
+
+* Tercero se crea el modulo del proveedor para ingresar los datos que se van a inyectar por medio de hilt aqui se hace la creacion del objeto retrofit el cual se
+se va a inyectar al repositorio
+
+* Cuarto el repositorio se comienza a llamar mediante una interface y luego hacemos la inyeccion del objeto retrofit mediante hilt aqui analizamos la respuesta del
+api y se asignan las posibles acciones
+
+* Quinto se realizan las Unit Test para el procedimiento de obtener retrofit mediante inyeccion de dependencias
+
+* Sexto se crea un modulo para el repositorio para hacer su inyeccion, ademas se crea la app para Hilt mediante MyApplications, se declara en el manifest
+
+* Septimo se crea el viewmodel y se inyecta el repositorio aqui se llama las corutinas para hacer la busqueda de la API y tenerla disponible para mostrarla en la VIEW
+
+* Octavo se crean las view mediante funciones COMPOSABLE se va construyendo nuestro UI
+
+* Noveno en el main se hace el llamado a las funciones composable mediante el navcontroller y se observa el estado del livedata para publicar...
+
+* Decimo realizamos pruebas instrumentales mediante hilt testing para probar nuestra UI.
