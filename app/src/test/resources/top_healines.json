@@ -1,0 +1,33 @@
+{
+  "status": "ok",
+  "totalResults": 38,
+  "articles": [
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": null,
+      "title": "Robert Durst charged with 1982 murder of wife Kathie Durst - Associated Press",
+      "description": "NEW YORK (AP) — Millionaire real estate scion Robert Durst has been charged in suburban New York City with the death of his former wife, Kathie Durst, who vanished in 1982, authorities confirmed Friday.",
+      "url": "https://apnews.com/article/coronavirus-pandemic-robert-durst-health-new-york-new-york-city-6e0c1c290b1a396e5b92a2ab200ff16a",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/b3b777e9a8b74a05b51df60de8896428/2842.jpeg",
+      "publishedAt": "2021-10-22T14:00:10Z",
+      "content": "NEW YORK (AP) Millionaire real estate scion Robert Durst has been charged in suburban New York City with the death of his former wife, Kathie Durst, who vanished in 1982, authorities confirmed Friday… [+1903 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Daniel Dale",
+      "title": "Fact-checking Biden's CNN town hall in Baltimore - CNN",
+      "description": "President Joe Biden participated Thursday in a CNN town hall in Baltimore, taking questions from anchor Anderson Cooper and local residents about his legislative agenda and a variety of other topics.",
+      "url": "https://www.cnn.com/2021/10/22/politics/fact-check-joe-biden-town-hall/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/211022001808-39-week-in-photos-1021-super-tease.jpg",
+      "publishedAt": "2021-10-22T13:36:00Z",
+      "content": "(CNN)President Joe Biden participated Thursday in a CNN town hall in Baltimore, taking questions from anchor Anderson Cooper and local residents about his legislative agenda and a variety of other to… [+5779 chars]"
+    }
+  ]
+}
+

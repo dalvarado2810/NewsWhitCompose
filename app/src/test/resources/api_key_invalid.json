@@ -1,0 +1,6 @@
+{
+  "status": "error",
+  "code": "apiKeyInvalid",
+  "message": "Your API key is Invalid. Append this to the URL with the apiKey param, or use the x-api-key HTTP header."
+}
+
