@@ -46,7 +46,7 @@ fun ListScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Noticias del Mundo") },
+                title = { Text("Noticias de Mexico") },
             )
         }
     )

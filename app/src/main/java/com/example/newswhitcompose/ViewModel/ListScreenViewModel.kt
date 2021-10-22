@@ -21,7 +21,7 @@ class ListScreenViewModel @Inject constructor(
 
     fun getNews(): LiveData<List<News>>{
         viewModelScope.launch(Dispatchers.IO) {
-            val news = repository.getNews("US")
+            val news = repository.getNews("MX")
             _news.postValue(news)
         }
         return _news

@@ -24,10 +24,6 @@ class NewRepositoryImp @Inject constructor(
                 "apiKeyMissing" -> throw MissingApiKeyException()
                 "apiKeyInvalid" -> throw ApiKeyInvalidException()
                 else -> throw Exception()
-
-
-
-
             }
         }
 
